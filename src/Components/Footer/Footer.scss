@@ -1,0 +1,61 @@
+.footer {
+    background-color:  #3C3C3B;
+
+    .logoimages {
+        width: 220px;
+        height: 57px;
+    }
+
+    .footertext-color {
+        color:#eeee;
+
+    }
+
+    .title {
+        width: 95%;
+        text-align: left;
+        border-right: 1px solid #aaa;
+    }
+
+
+
+    .btn {
+        position: absolute;
+        top: 2px;
+        right: 1px;
+        bottom: 3px;
+        background: #FFF200 0% 0% no-repeat padding-box;
+        border-radius: 19px;
+
+        .icon {
+            position: absolute;
+            top: 17px;
+            right: 20px;
+            bottom: 0;
+            width: 21px;
+            height: 21px;
+            list-style: none;
+        }
+    }
+
+    ul li {
+        list-style: none;
+        color: #eeee;
+        line-height: 2.5;
+    }
+
+    .list li {
+        border-right: 1px solid #aaa;
+
+    }
+
+    .icon-social li {
+        padding: 5px;
+
+    }
+    .main{
+        border-top: 1px solid #aaa;
+ 
+    }
+
+}

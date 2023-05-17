@@ -1,3 +1,7 @@
+:root{
+  --primary-color:#542E90;
+  --secondary-color: #fff100;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +11,114 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+.bg-main {
+  background-color:var(--secand-color) ;
+}
+
+.primary-color {
+  color: var(--primary-color);
+}
+.rating-bg {
+  background-color:var(--secondary-color);
+}
+
+.primary-bg {
+  background-color:var(--primary-color)
+}
+.primary-bg:hover {
+  background-color: var(--primary-color);
+}
+.btn-bg {
+  background-color: var(--secondary-color);
+}
+
+.btn-bg:hover {
+  background-color: var(--secondary-color);
+}
+
+
+.price-color {
+  color: var(--primary-color);
+}
+
+.price-bg {
+  background-color: var(--primary-color);;
+}
+.price-bg:hover {
+  background-color: var(--primary-color);;
+}
+.btn-bg {
+  background-color: var(--secondary-color);
+}
+
+.btn-bg:hover {
+  background-color:var(--secondary-color);
+}
+.model-color {
+  color: var(--primary-color);
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+
+
+.loading {
+  top: 0%;
+  background-color: white;
+  z-index: 5555555;
+}
+
+.bg-loading {
+  background-color: var(--light-color);
+
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #000 transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
